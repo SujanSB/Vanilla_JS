@@ -1,0 +1,48 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:gray;
+}
+.images{
+    background: yellow;
+    flex: 0 0 90%;
+    min-height: 90vh;
+    background: url(1.png)center/cover no-repeat;
+    border-radius: 20px;
+    box-shadow: 5px 10px cyan;
+    position: relative;
+}
+
+.btn{
+    display: inline-block;
+    background-color: darkorange;
+    color: darkred;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: darkred;
+    outline: none;
+}
+.prevbtn{
+    position: absolute;
+    top:50%;
+    left: 0; 
+    transform: translate(-50%,-50%);   
+}
+.nextbtn{
+    position: absolute;
+    top:50%;
+    right: 0; 
+    transform: translate(50%,-50%);   
+}
+.btn:active{
+    background: greenyellow;
+    box-shadow: lavenderblush;
+
+}
+.btn:hover{
+    background-color:rgb(21, 230, 14);;
+    color: rgb(136, 5, 11)
+}

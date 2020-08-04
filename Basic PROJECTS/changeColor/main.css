@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorBtn {
+  color: teal;
+  padding: 5px;
+  border: 3px solid rgb(15, 230, 212);
+  border-radius: 20px;
+  box-shadow: yellow;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+}
+.colorBtn:hover {
+  background: aqua;
+}
+.hexcol {
+  float: right;
+}

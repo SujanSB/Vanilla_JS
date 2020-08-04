@@ -1,0 +1,34 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    background-color: aqua;
+}
+#sub1{
+    padding: 10px;
+    margin: 10px;
+    
+}
+#sub2{
+    padding: 10px;
+    margin: 10px;
+    
+}
+#sub3{
+    padding: 10px;
+    margin: 10px;
+
+}
+#sub4{
+    padding: 10px;
+    margin: 10px;
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calender</title>
+</head>
+<style>
+	body{
+		background-color: black;
+		align-items: center;
+		justify-content:center;
+		padding: 100px;
+		
+	}
+	.Calender{
+		width:20%;
+		margin:auto;
+		border-radius:20px;
+		height: 300px;
+		background-color: white;
+		-webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+	}
+	#monthName{
+		background-color: orange;
+		padding:10px;
+		font-size: 20px;
+		text-align: center;
+	}
+	#daynum{
+		align-items: center;
+		justify-content: center;
+		font-size: 120px;
+		margin: 0;
+		text-align: center;
+	}
+	#day{
+		text-align: center;
+		font-size: 30px;
+		text-transform: uppercase;
+		padding: 0;
+		margin: 0;
+	}
+	#year{
+		text-align: center;
+		padding: 10px;
+		font-family: sans-serif;
+		font-weight: 200;
+	}
+	</style>
+<body>
+	<div class="Calender">
+			<p id="monthName"></p>
+			<h1 id="daynum"></h1>
+			<p id="day"> </p>
+			<p id="year"></p>
+	</div>
+</body>
+<script >
+	const lang = navigator.language;
+	const date =new Date();
+	let daynum=date.getDate();
+	let month =date.getMonth();
+	let dayName =date.toLocaleString(lang,{weekday:"long"})
+	let monthName =date.toLocaleString(lang,{month:"long"})
+	let year =date.getFullYear();
+	document.getElementById('monthName').innerHTML =monthName;
+	document.getElementById('day').innerHTML =dayName;
+	document.getElementById('daynum').innerHTML =daynum;
+	document.getElementById('year').innerHTML =year;
+
+
+
+</script>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEIGHT CONVERTER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        body{
+            margin-top: 60px;
+            background-color: rgb(228, 20, 20);
+            color: rgb(11, 17, 99);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-4 text-center">Weight CONVERTER</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card mb-3">
+                        <div class="card-block">
+                            <h4>Grams</h4>
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-block">
+                            <h4>KiloGrams</h4>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-block">
+                            <h4>MilliGrams</h4>
+                            <div id="mgOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

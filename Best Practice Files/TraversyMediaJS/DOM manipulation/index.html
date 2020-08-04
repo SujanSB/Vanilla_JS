@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>item lister</title>
+  </head>
+  <style>
+    body {
+      min-height: 100vh;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+    }
+    .container {
+      flex: 0 0 70%;
+      background-color: orange;
+      min-height: 70vh;
+    }
+    .navbar {
+      background-color: aqua;
+    }
+    .item {
+      background-color: cadetblue;
+      text-decoration: none;
+    }
+    form {
+      border: 2px solid olive;
+    }
+    .btnDel {
+      float: right;
+    }
+    .addForm{
+      justify-content: center;
+      margin: 10px;
+      display: flex;
+    }
+    .input{
+      margin-right: 10px;
+      width: 300px;
+      height: 25px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h1 id="heading">lister</h1>
+      </div>
+      <form action="" class="form">
+        <h1>Add Item</h1>
+        <div class="addForm">
+          <input id="item"type="text" placeholder="type something"/>
+          <input class="submit" type="submit" id="btnSubmit" />
+        </div>
+        <h2 class="title">******************Items*****************</h2>
+        <ul id="items">
+          <li class="row">item1 <button class="btnDel">Del</button></li>
+          <li class="row">item2 <button class="btnDel">Del</button></li>
+          <li class="row">item3 <button class="btnDel">Del</button></li>
+          <li class="row">item4 <button class="btnDel">Del</button></li>
+        </ul>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

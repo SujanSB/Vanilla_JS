@@ -1,0 +1,75 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 231, 112);
+    color: rgb(27, 26, 6);
+    font-weight: 500 ;
+}
+.part1{
+    /* display: flex; */
+    min-height: 70vh;
+    
+}
+.container{
+    margin: 40px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    flex: 0 0 70%;
+    background-color: darkturquoise;
+    border: 3px solid darkblue;
+    
+}
+#quotebtn{
+    border: 3px solid green;
+    border-radius: 20px;
+    color: dimgrey;
+    background: rgb(223, 211, 211);
+    padding: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+#quotebtn:hover{
+    background-color: greenyellow;
+}
+blockquote{
+    background: #f9f9f9;
+    border: 3px solid rebeccapurple;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+#QuoteAuthor{
+    color: rgb(12, 12, 12);
+}
+/* arko part ko ho hai yo chai */
+.part2{
+    background-color: darkblue;
+    min-height: 30vh;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Number{
+    font-size: 5rem;
+    
+}
+.counter{
+    flex: 0 0 70%;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+}
+.iBtn{
+    margin-left: 30px;
+
+    font-size: xx-large;
+    padding:20px;
+}
+.dBtn{
+    font-size: xx-large;
+    padding: 20px;
+}
+h2.no{
+    font-size: 8rem;
+    padding-bottom: 0%;
+}
